@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    font-family: 'Caveat Brush', cursive;   
+}
+
+.head{
+    position: absolute;
+    margin-top: -300px;
+    margin-right: 270px;
+}
+
+.head h1{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 50px;
+}
+
+.head h2{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 30px;
+    color: #3d3d3d;
+}
+
+.head p{
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.color-1{
+    height: 200px;
+    background-color: #fffbe4fd;
+}
+
+.color-2{
+    height: 850px;
+    background-color: #ffcc7dfd;
+}
+
+.color-3{
+    height: 150px;
+    background-color: #ced4da;
+}
+
+.content-align{
+    margin-top: -1095px;
+    display: flex;
+    justify-content: center;
+}
+.content{
+    display: grid;
+    place-items: center;
+}
+
+.content img{
+    height: 437px;
+    width: 620px;
+    box-shadow: 0px 0px 30px black;
+}
+
+.courses{
+    height: 120px;
+    width: 700px;
+    background-color: white;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.courses-title{
+    margin: 50px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 50px;
+}
+
+.custom img{
+    height: 90px;
+    width: 135px;
+}
+
+.basics img{
+    height: 90px;
+    width: 135px;
+}
+
+.advance img{
+    height: 90px;
+    width: 135px;
+}
+.back{
+    height: 250px;
+    width: 200px;
+    margin: 30px;
+    background-color: white;
+    border: solid 3px;
+    border-color: black;
+    text-align: center;
+    place-items: center;
+    box-shadow: 0 0 20px;
+}
+
+.back p{
+    text-align: center;
+    margin: 25px;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 30px
+
+}
+
+.footer{
+    position: absolute;
+    margin-top: 1350px;
+    text-align: center;
+}
+
+.footer h3{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 30px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.links p{
+    font-size: 20px;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+@media only screen and (max-width: 790px) {
+
+    .content img{
+        height: 213px;
+        width: 310px;
+        box-shadow: 0px 0px 30px black;
+    }
+
+    .head{
+        margin-top: -950px;
+        margin-right: -44px;
+    }
+
+    .color-2{
+        height: 1050px;
+        background-color: #ffcc7dfd;
+    }
+
+    .courses-title{
+        margin-top: 500px;
+    }
+    
+    .courses{
+        display: contents;
+    }
+
+    .custom img{
+        height: 60px;
+        width: 86px;
+    }
+    
+    .basics img{
+        height: 60px;
+        width: 86px;
+    }
+    
+    .advance img{
+        height: 60px;
+        width: 86px;
+    }
+}

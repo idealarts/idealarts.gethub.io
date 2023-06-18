@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.color-1{
+    height: 200px;
+    background-color: #fffbe4fd;
+}
+
+.color-2{
+    height: 850px;
+    background-color: #ffcc7dfd;
+}
+
+.color-3{
+    height: 150px;
+    background-color: #ced4da;
+}
+
+.content-align{
+    margin-top: -1095px;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 50px;
+}
+
+.head{  
+    height: 120px;
+    width: 220px;
+    margin-top: 50px;
+    margin-left: -250px;
+    background-color: #fffbe4fd;
+    display: grid;
+    place-items: center;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.507) ;
+}
+
+.info{
+    height: 500px;
+    width: 500px;
+    background-color: #fffbe4fd;
+    margin-top: 50px;
+    margin-left: -250px;
+    padding-top: 1px;
+}
+
+.info p{
+    margin: 30px;
+}
+
+.images{
+    margin-top: -400px;
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    border-radius: 25px;
+    position: absolute;
+    margin-top: 150px;
+    margin-right: -150px;
+}
+
+.footer{
+    position: absolute;
+    margin-top: 650px;
+    text-align: center;
+}
+
+.footer h3{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 30px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+}
+
+.links p{
+    margin: 20px;
+}
+
+.price-tag{
+    position: absolute;
+    margin-top: 370px;
+    margin-left : -180px;
+}
+
+.price{
+    display: flex;
+}
+.text{
+    height: 75px;
+    width: 75px;
+    background-color: #fffbe4fd;
+    border: solid 3px;
+    border-color: black;
+    display: grid;
+    place-items: center;
+}
+
+.number{
+    height: 75px;
+    width: 180px;
+    background-color: #fffbe4fd;
+    border: solid 3px;
+    border-color: #000;
+    display: grid;
+    place-items: center;
+}
+
+.note{
+    color: #3d3d3d;
+    font-size: 13px;
+    margin: 7px;
+}
+
+.start{
+    font-size: 17px;
+    display: grid;
+    place-items: center;
+}
+
+.my_links{
+    display: flex;
+    justify-content: center;
+}
+
+.my_links p{
+    margin: 5px;
+    margin-top: 2px;
+}
+
+.sayhi{
+    height: 50px;
+    width: 261px;
+    background-color: #ced4da;
+    border: solid 3px;
+    border-color: #000;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
